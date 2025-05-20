@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import AgentContainer from "./components/AgentContainer";
+import AgentContainer from "./(components)/AgentContainer";
 
 export default function Home() {
   const [data, setData] = useState([]);
